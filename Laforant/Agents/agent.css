@@ -1,0 +1,640 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+a{  
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(242,64,78);
+    z-index: 2;
+    margin-bottom: 90px;
+}
+
+
+.navbar-nav , .navbar-nav-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    padding-left: 30px;
+     height: 70px;
+   
+}
+
+.navbar-nav .gambar1 ,  .navbar-nav-nav .gambar1-1 , .navbar-nav-nav-nav .gambar1-2{
+    background-image: url("../assets/logo-L-bidikan.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar-nav .segitiga , .navbar-nav-nav .segitiga-1 , .navbar-nav-nav-nav .segitiga-2{
+    border-left: 0.6rem solid transparent;
+    border-right: 0.6rem solid transparent;
+    border-top: 0.8rem solid rgb(242,64,78);
+    
+}
+.navbar-nav-nav, .navbar-nav-nav-nav{
+    display: none;
+}
+.dropdown{
+     height: 70px;   
+}
+.dropdown-menu{
+    display: none;
+    flex-direction: column;
+   
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    padding: 25px 45px 25px 40px;
+    background-color: black;
+    color:rgb(242,64,78) ;
+    border-right: 3px solid rgb(242,64,78);
+}
+#atas{
+    border-top: 3px solid rgb(242,64,78);
+}
+#bawah{
+    border-bottom: 3px solid rgb(242,64,78);
+}
+
+.nav-aboutUs{
+    
+    width: 120px;
+    background-color:rgb(242,64,78);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+#aboutus{
+    height: 100%;
+    color: black;
+    font-size: 11pt;
+}
+.nav-aboutUs a{
+    text-decoration: none;
+    color: black;
+    font-size: 11pt;
+    font-family: sans-serif;
+    /* padding: 36.5px 0 36px 0; */
+}
+.contentbg{
+    background-image: url("../assets/Agents-Wallpaper.jpg");
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center; 
+}
+
+#judul{
+    padding-top: 40px;
+    font-size: 60pt;
+    font-family: VALORANT;
+    color: white;
+    text-shadow: 0px 0px 20px rgb(242,64,78), 0px 0px 20px rgb(242,64,78);
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 80%;
+    border-radius: 50px;
+    height: 570px;
+    border: 3px solid tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider div.slides div.slide img{
+    width: 230px;
+    height: 350px;
+}
+#sage , #cypher{
+    width: 200px;
+    height: 350px;
+}
+#tracer , #genji , #hanzo{
+    width: 260px;
+}
+#winston{
+    width: 300px;
+}
+.slider div.slides div.slide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    height: 400px;
+}
+.slider div.slides div.slide div.keterangan{
+   text-align: center;
+   width: 70%;
+  
+}
+
+
+.keterangan{
+    color: white;
+}
+.agents-desc{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: josefin;
+    font-size: 15pt;
+    height: 300px;
+    justify-content: space-around;
+}
+.agents-desc .Agents-name{
+    font-family: valorant;
+    position: relative;
+    text-shadow: 0px 0px 20px rgb(242,64,78), 0px 0px 20px rgb(232, 247, 98);
+    font-size: 40pt;
+}
+.slider{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider div.slides{
+    position: relative;
+}
+
+.slider div.slides div.slide{
+    float: left;
+}
+
+.button1 ,.button2{
+    border-radius: 100%;
+    background-color:rgb(242,64,78) ;
+    padding: 11px 15px 15px 15px;
+    font-size: 20px;
+}
+
+.footer{
+    /* width: 100%; */
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px 25px 30px;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+}
+
+.copyright{
+    font-family: sans-serif;
+    width: 23%;
+    color: white;
+    font-size: 9pt;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.social-media{
+    align-items: center;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 90px;
+}
+
+.social-media img{
+    width: 44px;
+    height: 44px;
+}
+
+.age-rating{
+    font-family: sans-serif;
+    display: flex;
+    color: white;
+    justify-content: right;
+    align-items: center;
+ 
+}
+
+.age-rating .age-rating-image img{
+    width: 70px;
+    height: 70px;
+}
+
+.age-rating .age-rating-text p{
+    font-size: 7pt;
+    padding-top: 3px;
+    margin: 0;
+}
+
+
+@media only screen and (min-width: 801px){
+   
+    
+
+    .navbar:hover{
+        border-bottom: 2px solid white;
+    }
+    .dropdown-menu{
+        display: none;
+    }
+    .dropdown-menu a:hover{
+        background-color: white;
+        color: black;
+        border-color: black;
+    }
+    
+    .dropdown:hover .dropdown-menu{
+        display: flex !important;
+    }
+    
+    .dropdown:hover .gambar1{
+        background-image: url("../assets/logo-L-bidikan-putih.png");
+    }
+    
+    .dropdown:hover .segitiga{
+        border-left: 0.6rem solid transparent;
+        border-right: 0.6rem solid transparent;
+        border-top: 0.8rem solid white;
+    }
+    .nav-aboutUs:hover{
+        background-color: white;
+        color: rgb(242,64,78);
+        
+    }
+    .nav-aboutUs:hover a{
+        
+        color: rgb(242,64,78);
+    }
+    .social-media img:hover{
+        background-color: rgb(242,64,78);
+    }
+    .linked a:hover{
+        background-color: white;
+        color: black; 
+      
+    }
+}
+@media only screen and (max-width: 1200px){
+    .slider div.slides div.slide{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 500px;
+        height: 400px;
+    }
+    .box{
+        height: 500px;
+    }
+    .agents-desc{
+        
+        font-size: 12pt;
+    }
+    
+    .slider div.slides div.slide img{
+       
+        height: 250px;
+    }
+    #sage , #cypher{
+        width: 150px;
+        height: 300px;
+    }
+    #tracer , #genji , #hanzo{
+        width: 200px;
+    }
+    #winston{
+        width: 200px;
+    }
+
+    .agents-desc{
+        height: 180px;     
+    }
+
+    .social-media{
+        padding-right: 20px;
+    }
+
+    #judul{
+        font-size: 45pt;
+        font-family: VALORANT;
+        color: white;
+        text-shadow: 0px 0px 20px rgb(242,64,78), 0px 0px 20px rgb(242,64,78);
+    }   
+    .contentbg{
+        height: 800px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .navbar{
+        height: 75px;
+    }
+    .nav-aboutUs{
+        width: 90px;
+    }
+    #aboutus{
+        font-size: 9pt;
+        
+    }
+    .navbar-nav{
+        display: none;
+    }
+    #navbar-nav-nav{
+        /* z-index: 2; */
+        display: flex;
+        width: 80%;
+        height: 90px;
+    }
+    #navbar-nav-nav .gambar1{
+      
+        height: 45px;
+        width: 45px;
+        
+    }
+  
+    #navbar-nav-nav .segitiga{
+        border-left: 0.5rem solid transparent;
+        border-right: 0.5rem solid transparent;
+        border-top: 0.7rem solid rgb(242,64,78);
+        
+    }
+    .dropdown{
+        height: 88px;   
+    }
+    .dropdown-menu{
+        
+        display: none;
+        flex-direction: column;
+        position: relative;
+        bottom :8px;
+    }
+
+    .box{
+
+        width: 90%;
+        height: 450px;
+    }
+
+    .slider div.slides div.slide img{
+       
+        height: 200px;
+    }
+    #sage , #cypher{
+        width: 120px;
+        height: 200px;
+    }
+    #tracer , #genji , #hanzo{
+        width: 160px;
+    }
+    #winston{
+        width: 200px;
+    }
+    .slider div.slides div.slide div.keterangan{
+        text-align: center;
+        width: 70%;
+       
+     }
+    .button1 ,.button2{
+        border-radius: 100%;
+        background-color:rgb(242,64,78) ;
+        padding: 12px 15px 15px 15px;
+        font-size: 15px;
+    }
+    .agents-desc{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-family: josefin;
+        font-size: 11pt;
+        height: 200px;
+        justify-content: space-around;
+        
+    }
+    .agents-desc .Agents-name{
+        font-family: valorant;
+        position: relative;
+        text-shadow: 0px 0px 20px rgb(242,64,78), 0px 0px 20px rgb(232, 247, 98);
+        font-size: 30pt;
+    }
+
+    .slider div.slides div.slide{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 500px;
+        height: 400px;
+    }
+
+    .contentbg{
+        height: 700px;
+    }
+
+    .footer{
+        height: 30px;
+    }
+
+    .copyright{
+        font-size: 6pt;
+    }
+    .social-media{
+        
+        padding: 0 0 0 40px;
+    }
+    .social-media a{
+        width: 35px;
+     
+    }
+    .social-media img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .age-rating .age-rating-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .age-rating .age-rating-image {
+        width: 30%;
+        
+    }
+
+    .age-rating .age-rating-text p{
+        font-size: 6pt;
+        padding-top: 1px;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        height: 55px;
+    }
+
+    #navbar-nav-nav {
+        display: none;
+    }
+    .dropdown{
+        height: 50%;
+    }
+    .navbar-nav-nav-nav{
+        display: flex;
+        width: 50px;
+        height: 30px;
+        padding-left: 20px;
+        padding-bottom: 19.5px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navbar-nav-nav-nav .gambar1-2{
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar-nav-nav-nav .segitiga-2{
+        border-left: 0.4rem solid transparent;
+        border-right: 0.4rem solid transparent;
+        border-top: 0.5rem solid rgb(242,64,78);   
+    }
+    .dropdown-menu a{
+        
+        padding: 25px 20px 25px 25px;
+        font-size: 10pt;
+        
+    }
+    #aboutus{
+        font-size: 6pt;
+    }
+    .nav-aboutUs{
+        width: 70px;
+    }
+
+
+    #judul{
+        font-size: 40pt;
+        font-family: VALORANT;
+        color: white;
+        text-shadow: 0px 0px 20px rgb(242,64,78), 0px 0px 20px rgb(242,64,78);
+        padding: 0;
+    }
+    .contentbg{
+        height: 650px;
+    }
+    .slider div.slides div.slide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 250px;
+        /* height: 400px; */
+    }
+
+
+    .slider div.slides div.slide img{
+       
+        height: 160px;
+    }
+    #sage , #cypher{
+        width: 120px;
+        height: 180px;
+    }
+    #tracer , #genji , #hanzo{
+        width: 120px;
+    }
+    #winston{
+        width: 160px;
+    }
+
+    .button1 ,.button2{
+        border-radius: 100%;
+        background-color:rgb(242,64,78) ;
+        padding: 8px 10px 10px 10px;
+        font-size: 13px;
+    }
+    .agents-desc{
+        
+        font-size: 9pt;
+    }
+    .agents-desc .Agents-name{
+        font-size: 26pt;
+    }
+    .footer{
+        height: 30px;
+        align-items: center;
+        
+        padding: 25px 20px 25px 20px;
+       
+    }
+    .age-rating{
+        padding-left: 3%;
+    }
+    .copyright{
+        width: 25%;
+        font-size: 3pt;
+    }
+    .social-media{
+        width: 40%;
+        padding: 0;
+        /* padding-right: 10px; */
+        padding-left: 20px;
+    }
+    .social-media img{
+        width: 20px;
+        height: 20px;
+    }
+   .age-rating{
+       width: 100px;
+       padding: 0;
+   }
+    .age-rating .age-rating-image img{
+        width: 35px;
+        height: 35px;
+    }
+    .age-rating .age-rating-text p{
+        font-size: 3pt;
+        padding-top: 1px;
+        padding-left: 10px;
+    }
+}
+
+@font-face {
+    font-family: Microsoft;
+    src: url("../assets/Fonts/micross.ttf");
+}
+
+@font-face {
+    font-family: 'VALORANT';
+    src: url('../assets/Fonts/Valorant/Valorant\ Font.ttf');
+}
+@font-face {
+    font-family: Josefin;
+    src: url('../assets/Fonts/Josefin/JosefinSansRegular-x3LYV.ttf');
+}

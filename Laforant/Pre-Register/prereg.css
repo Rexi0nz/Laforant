@@ -1,0 +1,735 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+a{  
+    font-family: sans-serif;
+}
+h1{
+  font-size: 33pt;
+}
+a{  
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  position:fixed;
+  justify-content: space-between;
+  border-bottom: 3px solid rgb(242,64,78);
+  z-index: 2;
+  margin-bottom: 90px;
+}
+
+
+.navbar-nav , .navbar-nav-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  padding-left: 30px;
+   height: 70px;
+ 
+}
+
+.navbar-nav .gambar1 ,  .navbar-nav-nav .gambar1-1 , .navbar-nav-nav-nav .gambar1-2{
+  background-image: url("../assets/logo-L-bidikan.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: left;
+}
+
+.navbar-nav .segitiga , .navbar-nav-nav .segitiga-1 , .navbar-nav-nav-nav .segitiga-2{
+  border-left: 0.6rem solid transparent;
+  border-right: 0.6rem solid transparent;
+  border-top: 0.8rem solid rgb(242,64,78);
+  
+}
+.navbar-nav-nav, .navbar-nav-nav-nav{
+  display: none;
+}
+.dropdown{
+   height: 70px;   
+}
+.dropdown-menu{
+  display: none;
+  flex-direction: column;
+ 
+}
+
+.dropdown-menu a{
+  text-decoration: none;
+  padding: 25px 45px 25px 40px;
+  background-color: black;
+  color:rgb(242,64,78) ;
+  border-right: 3px solid rgb(242,64,78);
+}
+#atas{
+  border-top: 3px solid rgb(242,64,78);
+}
+#bawah{
+  border-bottom: 3px solid rgb(242,64,78);
+}
+
+
+
+
+.nav-aboutUs{
+  
+  width: 120px;
+  background-color:rgb(242,64,78);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+#aboutus{
+  height: 100%;
+  color: black;
+  font-size: 11pt;
+}
+.nav-aboutUs a{
+  text-decoration: none;
+  color: black;
+  font-size: 11pt;
+  font-family: sans-serif;
+  /* padding: 36.5px 0 36px 0; */
+}
+
+
+.footer{
+  /* width: 100%; */
+  height: 60px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 50px 25px 30px;
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+}
+
+.copyright{
+  font-family: sans-serif;
+  width: 23%;
+  color: white;
+  font-size: 9pt;
+  display: flex;
+  justify-content: left;
+  
+}
+
+.social-media{
+  align-items: center;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 90px;
+}
+
+.social-media img{
+  width: 44px;
+  height: 44px;
+}
+
+.age-rating{
+  font-family: sans-serif;
+  display: flex;
+  color: white;
+  justify-content: right;
+  align-items: center;
+
+}
+
+.age-rating .age-rating-image img{
+  width: 70px;
+  height: 70px;
+}
+
+.age-rating .age-rating-text p{
+  font-size: 7pt;
+  padding-top: 3px;
+}
+
+  .background {
+    
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+  }
+  
+  .box {
+    background-color: black;
+    width: 60%;
+    /* padding: 10px; */
+    /* padding-bottom: 10px; */
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* padding-top: 100px; */
+    height: 90%;
+    border: 3px solid rgb(242,64,78);
+    
+  }
+  
+  .title {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 50px;
+  }
+  .line1 ,.line2 ,.line3{
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+  
+  .inside span {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+  }
+  
+  .inside input,select {
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 260px;
+    border-radius: 15px;
+  }
+  #country{
+    width: 282px;
+  }
+  
+  
+  .submit {
+    position: relative;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+  }
+  
+  .submit button {
+    padding: 20px;
+    border-radius: 50px;
+    width: 100%;
+    border-style: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .checkbox {
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .submit a {
+    text-decoration: none;
+ 
+  }
+  .submit button{
+    font-size: 13pt;
+  }
+  
+
+.title{
+    font-family: Valorant;
+    color: rgb(242,64,78);
+}  
+
+.inside, .checkbox, .submit a{
+      font-family: Josefin;
+  }
+#agreement{
+  color: white;
+}
+  /* footer */
+
+  .footer{
+    /* width: 100%; */
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px 25px 30px;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+}
+
+.copyright{
+    font-family: sans-serif;
+    width: 23%;
+    color: white;
+    font-size: 9pt;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.social-media{
+    align-items: center;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 90px;
+}
+
+.social-media img{
+    width: 44px;
+    height: 44px;
+}
+
+.age-rating{
+    font-family: sans-serif;
+    display: flex;
+    color: white;
+    justify-content: right;
+    align-items: center;
+ 
+}
+
+.age-rating .age-rating-image img{
+    width: 70px;
+    height: 70px;
+}
+
+.age-rating .age-rating-text p{
+    font-size: 7pt;
+    padding-top: 3px;
+}
+
+
+
+@media only screen and (min-width: 801px){
+  .background{
+    background-image:url(../assets/Overwatch-Wallpaper.jpg);
+  }
+  .navbar:hover{
+    border-bottom: 2px solid white;
+  }
+  .dropdown-menu{
+      display: none;
+  }
+  .dropdown-menu a:hover{
+      background-color: white;
+      color: black;
+      border-color: black;
+  }
+
+  .dropdown:hover .dropdown-menu{
+      display: flex !important;
+  }
+
+  .dropdown:hover .gambar1{
+      background-image: url("../assets/logo-L-bidikan-putih.png");
+  }
+
+  .dropdown:hover .segitiga{
+      border-left: 0.6rem solid transparent;
+      border-right: 0.6rem solid transparent;
+      border-top: 0.8rem solid white;
+  }
+  .nav-aboutUs:hover{
+      background-color: white;
+      color: rgb(242,64,78);
+      
+  }
+  .nav-aboutUs:hover a{
+      
+      color: rgb(242,64,78);
+  }
+
+  .submit button:hover{
+    background-color: rgb(242,64,78);
+    color: white;
+  }
+  .social-media img:hover{
+      background-color: rgb(242,64,78);
+  }
+
+}
+
+
+@media only screen and (max-width : 1400px){
+  .box{
+    width: 70%;  
+  }
+}
+
+@media only screen and (max-width : 1200px){
+  .box{
+    height: 670px;
+  }
+  .title h1{
+    font-size: 25pt;
+  }
+  .inside span label{
+    font-size: 12pt;
+  }
+  .inside input,select {
+    margin-top: 10px;
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 15px;
+  }
+  #country{
+    width: 230px;
+  }
+  .submit button {
+    width: 100%;
+     border-radius: 50px;
+      padding: 10px;
+     background-color: white;
+   
+   }
+   .social-media{
+     padding: 0;
+   }
+}
+
+@media only screen and (max-width: 800px){
+  .navbar{
+    height: 75px;
+  }
+  .nav-aboutUs{
+      width: 90px;
+  }
+  #aboutus{
+      font-size: 9pt;
+      
+  }
+  .navbar-nav{
+      display: none;
+  }
+  #navbar-nav-nav{
+      /* z-index: 2; */
+      display: flex;
+      width: 80%;
+      height: 90px;
+  }
+  #navbar-nav-nav .gambar1{
+    
+      height: 45px;
+      width: 45px;
+      
+  }
+
+  #navbar-nav-nav .segitiga{
+      border-left: 0.5rem solid transparent;
+      border-right: 0.5rem solid transparent;
+      border-top: 0.7rem solid rgb(242,64,78);
+      
+  }
+  .dropdown{
+      height: 88px;   
+  }
+  .dropdown-menu{
+      
+      display: none;
+      flex-direction: column;
+      position: relative;
+      bottom :8px;
+  }
+
+  .background {
+
+    height: 800px;
+   
+    
+    padding: 0;
+  }
+  
+  .box {
+    width: 100%;
+    height: 900px;
+    border: 0;
+    border-radius: 0;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+  .title h1{
+   
+    font-size: 23pt;
+    
+  }
+  .title{
+    padding: 70px 70px 30px 70px;
+    
+  }
+  
+  .inside span {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    /* line-height: 25px; */
+  }
+
+  .inside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px;
+  }
+
+  .inside input,
+  select {
+    
+    width: 350px;
+    border-radius: 15px;
+    
+  }
+
+  .inside input,select {
+    margin-top: 0;
+    /* padding: 10px 10px; */
+    width: 260px;
+    border-radius: 15px;
+  }
+  #agreement{
+  
+    color: white;
+  }
+  .line1, .line2 , .line3{
+   
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  .line4{
+    padding: 10px;
+    
+  }
+  #country{
+    position: relative;
+    width: 284px;
+    /* display: flex;
+    justify-content: right; */
+    /* left:10%; */
+  }
+  .submit {
+    position: relative;
+    width: 300px;
+    padding-left: 70px;
+  }
+  
+  .submit button {
+   width: 70%;
+    border-radius: 50px;
+     padding: 8px;
+    background-color: white;
+  
+  }
+  
+  .checkbox {
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .submit button a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  
+
+  .title{
+    font-family: Valorant;
+  }  
+
+  .inside, .checkbox, .submit a{
+      font-family: Josefin;
+  }
+
+  .footer{
+    height: 30px;
+  }
+
+  .copyright{
+      font-size: 6pt;
+  }
+  .social-media{
+        
+    padding: 0 0 0 40px;
+  }
+  .social-media a{
+      width: 35px;
+  
+  }
+  .social-media img{
+      width: 100%;
+      height: 100%;
+      
+  }
+  .age-rating .age-rating-image img{
+      width: 100%;
+      height: 100%;
+  }
+  .age-rating .age-rating-image {
+      width: 30%;
+      
+  }
+
+  .age-rating .age-rating-text p{
+      font-size: 6pt;
+      padding-top: 1px;
+  }
+}
+
+@media only screen and (max-width : 600px){
+  .navbar{
+    height: 55px;
+  }
+
+  #navbar-nav-nav {
+      display: none;
+  }
+  .dropdown{
+      height: 50%;
+  }
+  .navbar-nav-nav-nav{
+      display: flex;
+      width: 50px;
+      height: 30px;
+      padding-left: 20px;
+      padding-bottom: 19.5px;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .navbar-nav-nav-nav .gambar1-2{
+      width: 30px;
+      height: 30px;
+  }
+
+  .navbar-nav-nav-nav .segitiga-2{
+      border-left: 0.4rem solid transparent;
+      border-right: 0.4rem solid transparent;
+      border-top: 0.5rem solid rgb(242,64,78);   
+  }
+  .dropdown-menu a{
+      
+      padding: 25px 20px 25px 25px;
+      font-size: 10pt;
+      
+  }
+  #aboutus{
+      font-size: 6pt;
+  }
+  .nav-aboutUs{
+      width: 70px;
+  }
+
+  .background {
+    height: 100%;
+
+    padding-top: 0;
+  }
+  .box{
+    height: 700px;
+  }
+  .title{
+    padding: 40px 20px 30px 20px;
+
+  }
+  .title h1{
+    font-size: 18pt;
+  }
+  .inside span label{
+    font-size: 10pt;
+  }
+  .inside input,select {
+    /* margin-top: 10px; */
+    padding: 5px 5px;
+    width: 50%;
+    border-radius: 15px;
+  }
+  #head-country{
+    width: 53.5%;
+  }
+  #country{
+    width: 100%;
+  }
+  .checkbox {
+    width: 100%;
+    font-size: 15px;
+  }
+  
+  .footer{
+    height: 30px;
+    align-items: center;
+    
+    padding: 25px 20px 25px 20px;
+  
+  }
+  .age-rating{
+    padding-left: 3%;
+  }
+  .copyright{
+    width: 25%;
+    font-size: 3pt;
+  }
+  .social-media{
+    width: 40%;
+    padding: 0;
+    /* padding-right: 10px; */
+    padding-left: 20px;
+  }
+  .social-media img{
+    width: 20px;
+    height: 20px;
+  }
+  .age-rating{
+  width: 100px;
+  padding: 0;
+  }
+  .age-rating .age-rating-image img{
+    width: 35px;
+    height: 35px;
+  }
+  .age-rating .age-rating-text p{
+    font-size: 3pt;
+    padding-top: 1px;
+    padding-left: 10px;
+  }
+}
+@font-face {
+  font-family: Valorant;
+  src: url(../assets/Fonts/Valorant/Valorant\ Font.ttf);
+}
+
+@font-face {
+  font-family: Josefin;
+  src: url(../assets/Fonts/Josefin/JosefinSansRegular-x3LYV.ttf);
+}
+@font-face {
+  font-family: Microsoft;
+  src: url("../assets/Fonts/micross.ttf");
+}

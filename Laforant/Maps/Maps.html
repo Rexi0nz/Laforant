@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps</title>
+    <link rel="icon" href="./../assets/logo-L.png">
+    <link rel="stylesheet" href="../Maps/Maps.css">
+    <script src="../Maps/Maps.js"></script>
+    <script src="../Maps/jquery-3.5.1.min.js"></script>
+</head>
+<body onscroll="scroll()">
+    <!-- Header -->
+    <div class="navbar">
+        <div class="dropdown" >
+            <div class="navbar-nav" >
+                <div class="gambar1" ></div>
+                <div class="segitiga"></div>
+            </div>
+            <div class="navbar-nav-nav" id="navbar-nav-nav" onclick="toogleNavbarNav()">
+                <div class="gambar1-1" ></div>
+                <div class="segitiga-1"></div>
+            </div>
+            <div class="navbar-nav-nav-nav" id="navbar-nav-nav-nav" onclick="toogleNavbarNav()">
+                <div class="gambar1-2" ></div>
+                <div class="segitiga-2"></div>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu">
+                <a href="../Homepage/home.html" class="menu" id="atas">Home</a>
+                <a href="../Maps/Maps.html" class="menu">Maps</a>
+                <a href="../Agents/agents.html" class="menu">Agents</a>
+                <a href="../Sys-Req/sysreq.html" class="menu">System Requirements</a>
+                <a href="../Pre-Register/Pre-Register.html" class="menu" id="bawah">Pre-Register</a>
+            </div>
+           
+        </div>
+            <a href="#foot" id="aboutus">
+                <div class="nav-aboutUs">
+                    ABOUT US
+                 </div>   
+            </a>
+    </div>
+    <br><br><br>
+
+    <!-- Content -->
+    <div class="content">
+        <div class="title">
+            <h1>LAForant's Maps</h1>
+            
+        </div>
+        <div id="ascent"></div>
+        
+        <div class="linked">
+            <a href="#ascent" id="border-maps">Ascent</a>
+            <a href="#haven"id="border-maps" >Village</a>
+            <a href="#icebox" id="border-maps">Arctic</a>
+            <a href="#split">Tokyo</a>
+        </div>
+        
+        <div class="ascent" >
+
+            <div class="judul-ascent">
+                <h1>Ascent</h1>
+            </div>
+            <div class="ascent-content">
+                <div class="ascent-gbr">
+                    <img src="../assets/ascent-maps.png" alt="">
+                </div>
+                <div class="ascent-desc">
+                    <h1>Test your mettle in this small battleground, with irreversible bomb doors on each site, the flow of battle can change at anytime in Ascent.</h1>
+                </div>
+            </div>
+            <div id="haven"></div>
+        </div>
+        <div class="haven" >
+            <div class="judul-haven">
+                <h1>Village</h1>
+            </div>
+            <div class="haven-content">
+                <div class="haven-desc">
+                    <h1>A safe haven no more, many agents fight to control this strategic territory. Defenders will have to act carefully and strategically to defend 3 sites.</h1>
+                </div>
+                <div class="haven-gbr">
+                    <img src="../assets/haven-maps.png" alt="">
+                </div>
+            </div>
+            <div id="icebox"></div>
+        </div>
+        <div class="icebox" >
+            <div class="judul-icebox">
+                <h1>Arctic</h1>
+            </div>
+            <div class="icebox-content">
+                <div class="icebox-gbr">
+                    <img src="../assets/icebox-maps.png" alt="">
+                </div>
+                <div class="icebox-desc">
+                    <h1>
+                        The battle of Laforant expands to the arctic. With two plant sites and small corridors, Attackers must play strategically to gain the upper hands.
+                    </h1>   
+                </div>
+            </div>
+            <div id="split"></div>
+        </div>
+        
+        <div class="split" >
+            <div class="judul-split">
+                <h1>Tokyo</h1>
+            </div>
+            <div class="split-content">
+                <div class="split-desc">
+                    <h1>
+                        In the downtown of Tokyo, defenders will have to prepare to defend 2 sites split by rope ascenders from the attackers. Once the attackers take control of a site, the defenders are going to have a bad time.
+                    </h1>
+                </div>
+                <div class="split-gbr">
+                    <img src="../assets/split-maps.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer" id="foot">
+        <div class="copyright">
+            © 2021 Bluejack, Inc. Bluejack, LaForant, and any associated logos are trademarks, service marks, and/or registered trademarks of Bluejack, Inc.
+        </div>
+        <div class="social-media">
+            <a href="https://www.instagram.com/la_forant/"><img src="../assets/instagram.png" alt=""></a>
+            <a href="https://www.facebook.com/PlayLaforant"><img src="../assets/facebook.png" alt=""></a>
+            <a href="https://twitter.com/ForantLa?s=06"><img src="../assets/twitter.png" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCwBU4VKzq1vizgKb_RU8cTA"><img src="../assets/youtube.png" alt=""></a>
+            
+            
+            
+            
+        </div>
+        <div class="age-rating">
+            <div class="age-rating-image">
+                <img src="../assets/age-rating.png" alt="">
+            </div>
+            <div class="age-rating-text">
+               <p>Blood</p>
+               <p>Language</p>
+               <p> Violence</p>
+               <p>Users Interact</p>
+               <p>In-Game Purchases</p> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
